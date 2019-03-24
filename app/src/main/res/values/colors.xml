@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky_blue">#BBDEFB</color>
+    <color name="snow_grey">#CDC5BF</color>
+    <color name="cool_grey">#EFEBE2</color>
+    <color name="desert_sand">#BCAAA4</color>
+    <color name="funky_lime">#F0F4C3</color>
+    <color name="cool_blue">#477978</color>
+    <color name="sand_grey">#CFC8C4</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,10 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/book_list"
+          android:name="com.devstream.booksapplication.app.BookListFragment"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="@dimen/padding_min"
+          android:layout_marginRight="@dimen/padding_min"
+          tools:context=".BookListActivity"
+          tools:layout="@android:layout/list_content"/>

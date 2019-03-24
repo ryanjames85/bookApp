@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="3.0">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_weight="1"
+                 android:layout_height="match_parent">
+
+        <TextView android:layout_width="match_parent"
+                  android:text="Hello there!"
+                  android:id="@+id/book_detail"
+                  style="?android:attr/textAppearanceLarge"
+                  android:padding="@dimen/padding_min"
+                  android:textStyle="bold"
+                  android:textColor="@color/cool_grey"
+                  android:layout_marginBottom="80dp"
+                  android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+
+    <TextView android:layout_width="match_parent"
+              android:text="Hello there!"
+              android:id="@+id/book_sub_detail"
+              style="?android:attr/textAppearanceLarge"
+              android:padding="@dimen/padding_min"
+              android:layout_weight="0.7"
+              android:paddingTop="@dimen/padding_edge"
+              android:textColor="@color/sand_grey"
+              android:layout_height="match_parent"/>
+
+    <Button android:layout_width="match_parent"
+            android:id="@+id/pay_button"
+            android:padding="@dimen/padding_min"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/padding_min"
+            android:layout_marginRight="@dimen/padding_min"
+            android:background="@drawable/button_selector"
+            android:textColor="@color/cool_blue"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_weight="1.4"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

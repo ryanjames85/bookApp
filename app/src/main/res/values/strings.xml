@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BooksApplication</string>
+    <string name="title_book_detail">Book Detail</string>
+    <string name="cancel">Add</string>
+    <string name="OK">OK</string>
+    <string name="OK_message">OK - to proceed to Check-out</string>
+    <string name="add_message">Add - and continue shopping</string>
+    <string name="payment">Payment</string>
+    <string name="internet_warning">No response due to poor Internet connection</string>
+
+</resources>

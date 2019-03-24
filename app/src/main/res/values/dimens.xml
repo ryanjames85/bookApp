@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_min">16dp</dimen>
+    <dimen name="padding_edge">3dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="alert_text">12sp</dimen>
+
+</resources>
